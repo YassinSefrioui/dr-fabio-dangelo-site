@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dangelo-full",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "4174", "--directory", "/Users/yassinesefrioui/dr-fabio-dangelo-site"],
+      "port": 4174
+    }
+  ]
+}
