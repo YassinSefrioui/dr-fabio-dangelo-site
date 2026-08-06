@@ -79,14 +79,17 @@
       <a class="btn btn-outline" href="mailto:info@drfabiodangelo.com">Écrire un e-mail</a></div>
   </div>
   <div class="reveal">
-    <form class="card" style="padding:2rem" data-contact-form data-to="info@drfabiodangelo.com" data-subject="Dr Fabio D&#x27;Angelo — Demande de rendez-vous" data-label-name="Nom" data-label-email="E-mail" data-label-phone="Téléphone" data-label-message="Message">
+    <form class="card" style="padding:2rem" data-contact-form data-endpoint="../contact.php" data-sending="Envoi…">
       <h3 style="margin-bottom:1rem">Formulaire de contact</h3>
+      <input type="hidden" name="lang" value="fr">
+      <div style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0" aria-hidden="true"><label>Ne pas remplir</label><input name="website" tabindex="-1" autocomplete="off"></div>
       <div class="form-field"><label>Nom</label><input name="name" required placeholder="Votre nom"></div>
       <div class="form-field"><label>E-mail</label><input type="email" name="email" required placeholder="you@email.com"></div>
       <div class="form-field"><label>Téléphone</label><input name="phone" placeholder="+34 628 77 70 39"></div>
       <div class="form-field"><label>Message</label><textarea name="message" rows="4" placeholder="Comment pouvons-nous vous aider ?"></textarea></div>
       <button class="btn btn-primary" type="submit" style="width:100%">Envoyer</button>
-      <p class="ok" style="display:none;color:var(--sage);margin-top:1rem">Merci — votre messagerie s'est ouverte avec le message déjà rédigé. Il ne vous reste qu'à l'envoyer, nous vous recontacterons rapidement.</p>
+      <p class="ok" style="display:none;color:var(--sage);margin-top:1rem">Merci ! Nous avons bien reçu votre demande et vous avons envoyé un e-mail de confirmation. Notre équipe vous recontactera rapidement.</p>
+      <p class="err" style="display:none;color:#b3261e;margin-top:1rem">Nous n'avons pas pu envoyer votre message. Réessayez ou écrivez-nous à <a href="mailto:info@drfabiodangelo.com">info@drfabiodangelo.com</a>.</p>
     </form></div>
 </div></section>
 <section style="padding:0"><iframe class="map" loading="lazy" title="Mapa" src="https://www.google.com/maps?q=Carrer+de+Pere+II+de+Montcada,+16,+08034+Barcelona&output=embed"></iframe></section>
