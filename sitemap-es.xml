@@ -2,51 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.drfabiodangelo.com/aviso-legal.html</loc>
-    <lastmod>2026-08-07</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/aviso-legal.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/aviso-legal.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/aviso-legal.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/aviso-legal.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/aviso-legal.html"/>
-  </url>
-  <url>
-    <loc>https://www.drfabiodangelo.com/cirugia.html</loc>
-    <lastmod>2026-08-07</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/cirugia.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/cirugia.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/cirugia.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/cirugia.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/cirugia.html"/>
-  </url>
-  <url>
-    <loc>https://www.drfabiodangelo.com/contacto.html</loc>
-    <lastmod>2026-08-07</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/contacto.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/contacto.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/contacto.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/contacto.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/contacto.html"/>
-  </url>
-  <url>
-    <loc>https://www.drfabiodangelo.com/crioterapia.html</loc>
-    <lastmod>2026-08-07</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/crioterapia.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/crioterapia.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/crioterapia.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/crioterapia.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/crioterapia.html"/>
-  </url>
-  <url>
-    <loc>https://www.drfabiodangelo.com/fisioterapia-podologica.html</loc>
-    <lastmod>2026-08-07</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/fisioterapia-podologica.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/fisioterapia-podologica.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/fisioterapia-podologica.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/fisioterapia-podologica.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/fisioterapia-podologica.html"/>
-  </url>
-  <url>
     <loc>https://www.drfabiodangelo.com/</loc>
     <lastmod>2026-08-07</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/"/>
@@ -56,11 +11,137 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/"/>
   </url>
   <url>
+    <loc>https://www.drfabiodangelo.com/quienes-somos.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/quienes-somos.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/a-propos.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/chi-sono.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/quienes-somos.html"/>
+  </url>
+  <url>
+    <loc>https://www.drfabiodangelo.com/spare-method.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/spare-method.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/spare-method.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/methode-spare.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/metodo-spare.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/spare-method.html"/>
+  </url>
+  <url>
+    <loc>https://www.drfabiodangelo.com/que-tratamos.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/que-tratamos.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/conditions-we-treat.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/pathologies-traitees.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/patologie-trattate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/que-tratamos.html"/>
+  </url>
+  <url>
+    <loc>https://www.drfabiodangelo.com/cirugia.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/cirugia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/surgical-procedures.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/chirurgie.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/chirurgia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/cirugia.html"/>
+  </url>
+  <url>
+    <loc>https://www.drfabiodangelo.com/preguntas-frecuentes.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/preguntas-frecuentes.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/questions-frequentes.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/domande-frequenti.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/preguntas-frecuentes.html"/>
+  </url>
+  <url>
+    <loc>https://www.drfabiodangelo.com/contacto.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/contacto.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/contatti.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/contacto.html"/>
+  </url>
+  <url>
+    <loc>https://www.drfabiodangelo.com/resultados.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/resultados.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/results.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/resultats.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/risultati.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/resultados.html"/>
+  </url>
+  <url>
+    <loc>https://www.drfabiodangelo.com/tecnica-tightrope.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/tecnica-tightrope.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/tightrope-technique.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/technique-tightrope.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/tecnica-tightrope.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/tecnica-tightrope.html"/>
+  </url>
+  <url>
+    <loc>https://www.drfabiodangelo.com/aviso-legal.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/aviso-legal.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/legal-notice.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/mentions-legales.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/note-legali.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/aviso-legal.html"/>
+  </url>
+  <url>
+    <loc>https://www.drfabiodangelo.com/politica-privacidad.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/politica-privacidad.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/politique-confidentialite.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/informativa-privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/politica-privacidad.html"/>
+  </url>
+  <url>
+    <loc>https://www.drfabiodangelo.com/politica-cookies.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/politica-cookies.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/cookie-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/politique-cookies.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/informativa-cookie.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/politica-cookies.html"/>
+  </url>
+  <url>
+    <loc>https://www.drfabiodangelo.com/servicios.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/servicios.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/services.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/services.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/servizi.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/servicios.html"/>
+  </url>
+  <url>
+    <loc>https://www.drfabiodangelo.com/crioterapia.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/crioterapia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/cryotherapy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/cryotherapie.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/crioterapia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/crioterapia.html"/>
+  </url>
+  <url>
+    <loc>https://www.drfabiodangelo.com/fisioterapia-podologica.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/fisioterapia-podologica.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/podiatric-physiotherapy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/physiotherapie-podologique.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/fisioterapia-podologica.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/fisioterapia-podologica.html"/>
+  </url>
+  <url>
     <loc>https://www.drfabiodangelo.com/laser-terapia.html</loc>
     <lastmod>2026-08-07</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/laser-terapia.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/laser-terapia.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/laser-terapia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/laser-therapy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/laserotherapie.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/laser-terapia.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/laser-terapia.html"/>
   </url>
@@ -68,118 +149,37 @@
     <loc>https://www.drfabiodangelo.com/luz-infrarroja.html</loc>
     <lastmod>2026-08-07</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/luz-infrarroja.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/luz-infrarroja.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/luz-infrarroja.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/luz-infrarroja.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/infrared-light.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/lumiere-infrarouge.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/luce-infrarossa.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/luz-infrarroja.html"/>
   </url>
   <url>
     <loc>https://www.drfabiodangelo.com/pedicura.html</loc>
     <lastmod>2026-08-07</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/pedicura.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/pedicura.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/pedicura.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/pedicura.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/pedicure.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/pedicure.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/pedicure.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/pedicura.html"/>
-  </url>
-  <url>
-    <loc>https://www.drfabiodangelo.com/politica-cookies.html</loc>
-    <lastmod>2026-08-07</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/politica-cookies.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/politica-cookies.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/politica-cookies.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/politica-cookies.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/politica-cookies.html"/>
-  </url>
-  <url>
-    <loc>https://www.drfabiodangelo.com/politica-privacidad.html</loc>
-    <lastmod>2026-08-07</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/politica-privacidad.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/politica-privacidad.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/politica-privacidad.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/politica-privacidad.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/politica-privacidad.html"/>
-  </url>
-  <url>
-    <loc>https://www.drfabiodangelo.com/preguntas-frecuentes.html</loc>
-    <lastmod>2026-08-07</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/preguntas-frecuentes.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/preguntas-frecuentes.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/preguntas-frecuentes.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/preguntas-frecuentes.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/preguntas-frecuentes.html"/>
-  </url>
-  <url>
-    <loc>https://www.drfabiodangelo.com/que-tratamos.html</loc>
-    <lastmod>2026-08-07</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/que-tratamos.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/que-tratamos.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/que-tratamos.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/que-tratamos.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/que-tratamos.html"/>
-  </url>
-  <url>
-    <loc>https://www.drfabiodangelo.com/quienes-somos.html</loc>
-    <lastmod>2026-08-07</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/quienes-somos.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/quienes-somos.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/quienes-somos.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/quienes-somos.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/quienes-somos.html"/>
   </url>
   <url>
     <loc>https://www.drfabiodangelo.com/quiropodia-delux.html</loc>
     <lastmod>2026-08-07</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/quiropodia-delux.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/quiropodia-delux.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/quiropodia-delux.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/quiropodia-delux.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/delux-chiropody.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/chiropodie-delux.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/podologia-delux.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/quiropodia-delux.html"/>
   </url>
   <url>
     <loc>https://www.drfabiodangelo.com/quiropodia-estetica.html</loc>
     <lastmod>2026-08-07</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/quiropodia-estetica.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/quiropodia-estetica.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/quiropodia-estetica.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/quiropodia-estetica.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/aesthetic-chiropody.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/chiropodie-esthetique.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/podologia-estetica.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/quiropodia-estetica.html"/>
-  </url>
-  <url>
-    <loc>https://www.drfabiodangelo.com/resultados.html</loc>
-    <lastmod>2026-08-07</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/resultados.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/resultados.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/resultados.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/resultados.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/resultados.html"/>
-  </url>
-  <url>
-    <loc>https://www.drfabiodangelo.com/servicios.html</loc>
-    <lastmod>2026-08-07</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/servicios.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/servicios.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/servicios.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/servicios.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/servicios.html"/>
-  </url>
-  <url>
-    <loc>https://www.drfabiodangelo.com/spare-method.html</loc>
-    <lastmod>2026-08-07</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/spare-method.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/spare-method.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/spare-method.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/spare-method.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/spare-method.html"/>
-  </url>
-  <url>
-    <loc>https://www.drfabiodangelo.com/tecnica-tightrope.html</loc>
-    <lastmod>2026-08-07</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/tecnica-tightrope.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/tecnica-tightrope.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/tecnica-tightrope.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/tecnica-tightrope.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/tecnica-tightrope.html"/>
   </url>
   <url>
     <loc>https://www.drfabiodangelo.com/tens.html</loc>
@@ -194,18 +194,72 @@
     <loc>https://www.drfabiodangelo.com/tratamiento-hongos-unas.html</loc>
     <lastmod>2026-08-07</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/tratamiento-hongos-unas.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/tratamiento-hongos-unas.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/tratamiento-hongos-unas.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/tratamiento-hongos-unas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/nail-fungus-treatment.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/traitement-mycose-ongles.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/trattamento-micosi-unghie.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/tratamiento-hongos-unas.html"/>
   </url>
   <url>
     <loc>https://www.drfabiodangelo.com/tratamiento-verrugas.html</loc>
     <lastmod>2026-08-07</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/tratamiento-verrugas.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/tratamiento-verrugas.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/tratamiento-verrugas.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/tratamiento-verrugas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/wart-treatment.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/traitement-verrues.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/trattamento-verruche.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/tratamiento-verrugas.html"/>
+  </url>
+  <url>
+    <loc>https://www.drfabiodangelo.com/cirugia-juanete-barcelona.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/cirugia-juanete-barcelona.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/bunion-surgery-barcelona.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/chirurgie-hallux-valgus-barcelone.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/chirurgia-alluce-valgo-barcellona.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/cirugia-juanete-barcelona.html"/>
+  </url>
+  <url>
+    <loc>https://www.drfabiodangelo.com/juanete-de-sastre.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/juanete-de-sastre.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/bunionette-tailors-bunion.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/bunionette-oignon-de-tailleur.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/bunionette-alluce-del-sarto.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/juanete-de-sastre.html"/>
+  </url>
+  <url>
+    <loc>https://www.drfabiodangelo.com/dedos-en-martillo.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/dedos-en-martillo.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/hammer-toe.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/orteils-en-marteau.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/dita-a-martello.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/dedos-en-martillo.html"/>
+  </url>
+  <url>
+    <loc>https://www.drfabiodangelo.com/neuroma-de-morton.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/neuroma-de-morton.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/mortons-neuroma.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/nevrome-de-morton.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/neuroma-di-morton.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/neuroma-de-morton.html"/>
+  </url>
+  <url>
+    <loc>https://www.drfabiodangelo.com/metatarsalgia.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/metatarsalgia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/metatarsalgia.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/metatarsalgie.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/metatarsalgia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/metatarsalgia.html"/>
+  </url>
+  <url>
+    <loc>https://www.drfabiodangelo.com/braquimetatarsia.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.drfabiodangelo.com/braquimetatarsia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.drfabiodangelo.com/en/brachymetatarsia.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.drfabiodangelo.com/fr/brachymetatarsie.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.drfabiodangelo.com/it/brachimetatarsia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.drfabiodangelo.com/braquimetatarsia.html"/>
   </url>
 </urlset>
