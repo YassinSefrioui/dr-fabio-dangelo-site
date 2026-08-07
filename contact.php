@@ -11,8 +11,8 @@
 
 declare(strict_types=1);
 
-const PRACTICE_EMAIL = 'info@drfabiodangelo.com';
-const FROM_EMAIL     = 'info@drfabiodangelo.com';
+const PRACTICE_EMAIL = 'contact@drfabiodangelo.com';
+const FROM_EMAIL     = 'contact@drfabiodangelo.com';
 const FROM_NAME      = "Dr. Fabio D'Angelo";
 
 header('Content-Type: application/json; charset=utf-8');
@@ -60,11 +60,11 @@ if ($name === '' || $email === '' || !filter_var($email, FILTER_VALIDATE_EMAIL))
     exit;
 }
 
-if (!in_array($lang, ['es', 'en', 'fr'], true)) {
+if (!in_array($lang, ['es', 'en', 'fr', 'it'], true)) {
     $lang = 'es';
 }
 
-$langNames = ['es' => 'Español', 'en' => 'Inglés', 'fr' => 'Francés'];
+$langNames = ['es' => 'Español', 'en' => 'Inglés', 'fr' => 'Francés', 'it' => 'Italiano'];
 
 /* ---------------------------------------------------------------- *
  * 1. Enquiry to the practice — always Spanish, whatever the visitor  *
@@ -115,12 +115,12 @@ $replies = [
             . "Email:    {$email}\n"
             . "Teléfono: " . ($phone !== '' ? $phone : '—') . "\n"
             . ($message !== '' ? "\nMensaje:\n{$message}\n" : '')
-            . "\nSi tu consulta es urgente, puedes llamarnos al +34 628 77 70 39.\n\n"
+            . "\nSi tu consulta es urgente, puedes llamarnos al +34 623 80 97 85.\n\n"
             . "Un cordial saludo,\n"
             . "Equipo del Dr. Fabio D'Angelo\n"
             . "Cirujano de Pie y Tobillo\n"
-            . "Carrer de Pere II de Montcada, 16 · 08034 Barcelona\n"
-            . "info@drfabiodangelo.com · +34 628 77 70 39\n",
+            . "08001 Barcelona\n"
+            . "contact@drfabiodangelo.com · +34 623 80 97 85\n",
     ],
     'en' => [
         'subject' => 'Thank you for contacting Dr. Fabio D\'Angelo',
@@ -133,12 +133,12 @@ $replies = [
             . "Email:  {$email}\n"
             . "Phone:  " . ($phone !== '' ? $phone : '—') . "\n"
             . ($message !== '' ? "\nMessage:\n{$message}\n" : '')
-            . "\nIf your enquiry is urgent, you can call us on +34 628 77 70 39.\n\n"
+            . "\nIf your enquiry is urgent, you can call us on +34 623 80 97 85.\n\n"
             . "Kind regards,\n"
             . "The team of Dr. Fabio D'Angelo\n"
             . "Foot & Ankle Surgeon\n"
-            . "Carrer de Pere II de Montcada, 16 · 08034 Barcelona\n"
-            . "info@drfabiodangelo.com · +34 628 77 70 39\n",
+            . "08001 Barcelona\n"
+            . "contact@drfabiodangelo.com · +34 623 80 97 85\n",
     ],
     'fr' => [
         'subject' => 'Merci d\'avoir contacté le Dr Fabio D\'Angelo',
@@ -151,12 +151,30 @@ $replies = [
             . "E-mail :    {$email}\n"
             . "Téléphone : " . ($phone !== '' ? $phone : '—') . "\n"
             . ($message !== '' ? "\nMessage :\n{$message}\n" : '')
-            . "\nSi votre demande est urgente, vous pouvez nous appeler au +34 628 77 70 39.\n\n"
+            . "\nSi votre demande est urgente, vous pouvez nous appeler au +34 623 80 97 85.\n\n"
             . "Cordialement,\n"
             . "L'équipe du Dr Fabio D'Angelo\n"
             . "Chirurgien du Pied et de la Cheville\n"
-            . "Carrer de Pere II de Montcada, 16 · 08034 Barcelone\n"
-            . "info@drfabiodangelo.com · +34 628 77 70 39\n",
+            . "08001 Barcelone\n"
+            . "contact@drfabiodangelo.com · +34 623 80 97 85\n",
+    ],
+    'it' => [
+        'subject' => 'Grazie per aver contattato il Dr. Fabio D\'Angelo',
+        'body' => "Gentile {$name},\n\n"
+            . "Grazie per aver contattato lo studio del Dr. Fabio D'Angelo.\n\n"
+            . "Abbiamo ricevuto la tua richiesta e il nostro team ti contatterà il prima "
+            . "possibile per confermare i dettagli del tuo appuntamento.\n\n"
+            . "Riepilogo della tua richiesta:\n"
+            . "Nome:      {$name}\n"
+            . "Email:     {$email}\n"
+            . "Telefono:  " . ($phone !== '' ? $phone : '—') . "\n"
+            . ($message !== '' ? "\nMessaggio:\n{$message}\n" : '')
+            . "\nSe la tua richiesta è urgente, puoi chiamarci al +34 623 80 97 85.\n\n"
+            . "Cordiali saluti,\n"
+            . "Il team del Dr. Fabio D'Angelo\n"
+            . "Chirurgo del Piede e della Caviglia\n"
+            . "08001 Barcellona\n"
+            . "contact@drfabiodangelo.com · +34 623 80 97 85\n",
     ],
 ];
 
