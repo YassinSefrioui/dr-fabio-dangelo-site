@@ -15,6 +15,8 @@ This is the single source of truth for:
 Adding a page means adding one row here and creating the four files.
 """
 
+import os
+
 LANGS = ("es", "en", "fr", "it")
 
 # key: (es, en, fr, it)
@@ -52,9 +54,19 @@ SLUGS = {
     "c-morton":        ("neuroma-de-morton.html", "mortons-neuroma.html", "nevrome-de-morton.html", "neuroma-di-morton.html"),
     "c-metatarsalgia": ("metatarsalgia.html", "metatarsalgia.html", "metatarsalgie.html", "metatarsalgia.html"),
     "c-brachy":        ("braquimetatarsia.html", "brachymetatarsia.html", "brachymetatarsie.html", "brachimetatarsia.html"),
+
+    # /recursos/ resources section (Task 3.4). Slugs carry their own directory.
+    "r-index":         ("recursos/index.html", "resources/index.html", "ressources/index.html", "risorse/index.html"),
+    "r-tightrope":     ("recursos/tecnica-tightrope-endoscopica.html", "resources/endoscopic-tightrope-technique.html", "ressources/technique-tightrope-endoscopique.html", "risorse/tecnica-tightrope-endoscopica.html"),
+    "r-recovery":      ("recursos/recuperacion-cirugia-juanete-semana-a-semana.html", "resources/bunion-surgery-recovery-week-by-week.html", "ressources/recuperation-hallux-valgus-semaine-par-semaine.html", "risorse/recupero-alluce-valgo-settimana-per-settimana.html"),
+    "r-percutaneous":  ("recursos/percutanea-o-endoscopica.html", "resources/percutaneous-or-endoscopic-correction.html", "ressources/percutanee-ou-endoscopique.html", "risorse/percutanea-o-endoscopica.html"),
+    "r-recurrence":    ("recursos/por-que-vuelve-el-juanete.html", "resources/why-bunions-come-back.html", "ressources/pourquoi-l-hallux-valgus-recidive.html", "risorse/perche-l-alluce-valgo-recidiva.html"),
+    "r-running":       ("recursos/volver-a-correr-tras-cirugia-del-antepie.html", "resources/returning-to-running-after-forefoot-surgery.html", "ressources/reprendre-la-course-apres-chirurgie-avant-pied.html", "risorse/tornare-a-correre-dopo-chirurgia-avampiede.html"),
+    "r-revision":      ("recursos/cirugia-de-revision-del-juanete.html", "resources/what-revision-bunion-surgery-involves.html", "ressources/chirurgie-de-revision-hallux-valgus.html", "risorse/chirurgia-di-revisione-alluce-valgo.html"),
 }
 
 CONDITION_KEYS = [k for k in SLUGS if k.startswith("c-")]
+RESOURCE_KEYS = [k for k in SLUGS if k.startswith("r-") and k != "r-index"]
 
 BASE = "https://www.drfabiodangelo.com/"
 
@@ -73,16 +85,29 @@ def path(key, lang):
 
 
 def url(key, lang):
-    """Canonical absolute URL; homepages are directory URLs."""
+    """Canonical absolute URL; any index.html resolves to its directory URL."""
     s = slug(key, lang)
-    return BASE + folder(lang) + ("" if s == "index.html" else s)
+    if s.endswith("index.html"):
+        s = s[:-len("index.html")]
+    return BASE + folder(lang) + s
+
+
+def href(from_key, to_key, lang):
+    """Relative href from one page to another within the same language."""
+    src = os.path.dirname(path(from_key, lang))
+    dst = path(to_key, lang)
+    rel = os.path.relpath(dst, src or ".")
+    return rel[:-len("index.html")] or "./" if rel.endswith("index.html") else rel
 
 
 def key_for(path_):
     """Reverse lookup: repo-relative path -> key. Raises on unknown paths."""
-    lang = path_.split("/")[0] if "/" in path_ else "es"
-    name = path_.split("/")[-1]
-    for k in SLUGS:
-        if slug(k, lang) == name:
-            return k
+    for lang in LANGS:
+        f = folder(lang)
+        if not path_.startswith(f):
+            continue
+        rest = path_[len(f):]
+        for k in SLUGS:
+            if slug(k, lang) == rest:
+                return k
     raise KeyError(path_)

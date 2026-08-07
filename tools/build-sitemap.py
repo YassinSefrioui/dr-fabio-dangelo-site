@@ -68,9 +68,11 @@ def main():
     # either missing or silently absent from the sitemap and hreflang cluster.
     expected = {S.path(k, L) for k in S.SLUGS for L in LANGS}
     actual = set()
-    for lang in LANGS:
-        d = os.path.join(ROOT, S.folder(lang).rstrip("/") or ".")
-        actual |= {S.folder(lang) + f for f in os.listdir(d) if f.endswith(".html")}
+    for dirpath, dirnames, filenames in os.walk(ROOT):
+        dirnames[:] = [d for d in dirnames if d not in (".git", "tools", "assets")]
+        for f in filenames:
+            if f.endswith(".html"):
+                actual.add(os.path.relpath(os.path.join(dirpath, f), ROOT))
     if expected != actual:
         for p in sorted(expected - actual):
             print("in slugs.py but missing on disk: %s" % p, file=sys.stderr)
