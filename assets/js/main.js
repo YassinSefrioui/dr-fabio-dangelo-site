@@ -97,6 +97,19 @@
     });
   });
 
+  /* results gallery: reveal the remaining cases on request. They start hidden
+     so the browser never fetches their lazy images on the initial view. */
+  document.querySelectorAll('[data-more]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var grid = document.getElementById(btn.getAttribute('data-more'));
+      if (!grid) return;
+      grid.hidden = false;
+      grid.querySelectorAll('.reveal').forEach(function(el){ el.classList.add('in'); });
+      btn.setAttribute('aria-expanded', 'true');
+      btn.parentNode.removeChild(btn);
+    });
+  });
+
   /* scroll reveal + stat counters, shared observer */
   if ('IntersectionObserver' in window) {
     var io = new IntersectionObserver(function(entries){

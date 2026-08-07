@@ -339,3 +339,12 @@ iframe.map{width:100%;height:100%;min-height:340px;border:0;border-radius:var(--
   .yt-facade-play{width:56px;height:56px}
   .yt-facade-consent{display:none}
 }
+
+
+/* <picture> wrappers must leave no box behind, so every selector that targets
+   the img (positioning, object-fit, hover transforms) keeps working unchanged. */
+picture{display:contents}
+
+/* results gallery: cases beyond the first page stay hidden until requested,
+   so their lazy images are never fetched on the initial view */
+.more-cases[hidden]{display:none}
