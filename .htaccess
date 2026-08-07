@@ -1,0 +1,83 @@
+# drfabiodangelo.com — Apache configuration
+# Canonical host: https://www.drfabiodangelo.com
+
+# ---------------------------------------------------------------------------
+# Canonical URL enforcement
+# ---------------------------------------------------------------------------
+RewriteEngine On
+
+# 1. Force HTTPS (also lifts non-www to www in the same hop)
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://www.drfabiodangelo.com/$1 [R=301,L]
+
+# 2. Force www
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ https://www.drfabiodangelo.com/$1 [R=301,L]
+
+# 3. Strip index.html -> directory URL (root and /en/, /fr/, /it/)
+RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?] [NC]
+RewriteRule ^(.*/)?index\.html$ /$1 [R=301,L]
+
+DirectoryIndex index.html
+
+# ---------------------------------------------------------------------------
+# Compression
+# ---------------------------------------------------------------------------
+<IfModule mod_brotli.c>
+  AddOutputFilterByType BROTLI_COMPRESS text/html text/css text/plain text/xml \
+    application/javascript application/json application/xml image/svg+xml
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml \
+    application/javascript application/json application/xml image/svg+xml
+</IfModule>
+
+# ---------------------------------------------------------------------------
+# Caching
+#
+# style.css and main.js are not fingerprinted, so they are referenced with a
+# ?v= query string (see the <link>/<script> tags in the HTML). Bump that
+# version whenever either file changes, or returning visitors keep the old
+# copy for up to the month set below.
+# ---------------------------------------------------------------------------
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpeg              "access plus 1 year"
+  ExpiresByType image/png               "access plus 1 year"
+  ExpiresByType image/webp              "access plus 1 year"
+  ExpiresByType image/avif              "access plus 1 year"
+  ExpiresByType image/svg+xml           "access plus 1 year"
+  ExpiresByType image/x-icon            "access plus 1 year"
+  ExpiresByType video/mp4               "access plus 1 year"
+  ExpiresByType text/css                "access plus 1 month"
+  ExpiresByType application/javascript  "access plus 1 month"
+  ExpiresByType text/javascript         "access plus 1 month"
+  ExpiresByType text/html               "access plus 1 hour"
+  ExpiresByType application/xml         "access plus 1 hour"
+</IfModule>
+
+FileETag MTime Size
+
+# ---------------------------------------------------------------------------
+# Security headers
+# ---------------------------------------------------------------------------
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Permissions-Policy "geolocation=(), microphone=(), camera=(), interest-cohort=()"
+
+  # HSTS — enable ONLY after the redirects above are deployed and verified
+  # returning 301 to https://www.drfabiodangelo.com/. It is hard to reverse.
+  # Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</IfModule>
+
+# ---------------------------------------------------------------------------
+# MIME types
+# ---------------------------------------------------------------------------
+<IfModule mod_mime.c>
+  AddType image/webp .webp
+  AddType image/avif .avif
+  AddType application/xml .xml
+</IfModule>

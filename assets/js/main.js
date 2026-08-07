@@ -80,6 +80,23 @@
     });
   });
 
+  /* YouTube click-to-load: no request reaches YouTube until the visitor asks
+     for the video, and the player is then loaded from the no-cookie host. */
+  document.querySelectorAll('.yt-facade').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var id = btn.getAttribute('data-yt-id');
+      if (!id) return;
+      var frame = document.createElement('iframe');
+      frame.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&rel=0';
+      frame.title = btn.getAttribute('data-yt-title') || '';
+      frame.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+      frame.setAttribute('allowfullscreen', '');
+      frame.style.cssText = 'position:absolute;top:0;left:0;width:100%;height:100%;border:0';
+      btn.parentNode.replaceChild(frame, btn);
+      frame.focus();
+    });
+  });
+
   /* scroll reveal + stat counters, shared observer */
   if ('IntersectionObserver' in window) {
     var io = new IntersectionObserver(function(entries){
