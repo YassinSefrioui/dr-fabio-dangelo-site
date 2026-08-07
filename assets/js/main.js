@@ -98,32 +98,39 @@
     document.querySelectorAll('[data-count]').forEach(animateCount);
   }
 
-  /* contact form — no backend available; fall back to a pre-filled mailto so
-     leads aren't silently discarded (see HANDOFF.md §3.1) */
+  /* contact form — posts to contact.php, which mails the practice (always in
+     Spanish) and sends the patient an acknowledgement in the page's language */
   document.querySelectorAll('[data-contact-form]').forEach(function(form){
     form.addEventListener('submit', function(e){
       e.preventDefault();
-      var data = new FormData(form);
-      var name = (data.get('name') || '').toString().trim();
-      var email = (data.get('email') || '').toString().trim();
-      var phone = (data.get('phone') || '').toString().trim();
-      var message = (data.get('message') || '').toString().trim();
-      var to = form.getAttribute('data-to') || 'info@footdelux.com';
-      var lName = form.getAttribute('data-label-name') || 'Name';
-      var lEmail = form.getAttribute('data-label-email') || 'Email';
-      var lPhone = form.getAttribute('data-label-phone') || 'Phone';
-      var lMessage = form.getAttribute('data-label-message') || 'Message';
-      var subject = encodeURIComponent((form.getAttribute('data-subject') || 'Foot Delux — Contacto web') + (name ? ' · ' + name : ''));
-      var lines = [];
-      if (name) lines.push(lName + ': ' + name);
-      if (email) lines.push(lEmail + ': ' + email);
-      if (phone) lines.push(lPhone + ': ' + phone);
-      if (message) { lines.push(''); lines.push(lMessage + ':'); lines.push(message); }
-      var body = encodeURIComponent(lines.join('\n'));
-      window.location.href = 'mailto:' + to + '?subject=' + subject + '&body=' + body;
+
+      var endpoint = form.getAttribute('data-endpoint') || 'contact.php';
+      var btn = form.querySelector('button[type="submit"]');
       var ok = form.querySelector('.ok');
-      if (ok) ok.style.display = 'block';
-      form.reset();
+      var err = form.querySelector('.err');
+      var sendingLabel = form.getAttribute('data-sending') || '…';
+      var idleLabel = btn ? btn.textContent : '';
+
+      if (ok) ok.style.display = 'none';
+      if (err) err.style.display = 'none';
+      if (btn) { btn.disabled = true; btn.textContent = sendingLabel; }
+
+      fetch(endpoint, { method: 'POST', body: new FormData(form) })
+        .then(function(res){ return res.json().catch(function(){ return { ok: res.ok }; }); })
+        .then(function(data){
+          if (data && data.ok) {
+            if (ok) ok.style.display = 'block';
+            form.reset();
+          } else {
+            if (err) err.style.display = 'block';
+          }
+        })
+        .catch(function(){
+          if (err) err.style.display = 'block';
+        })
+        .then(function(){
+          if (btn) { btn.disabled = false; btn.textContent = idleLabel; }
+        });
     });
   });
 
